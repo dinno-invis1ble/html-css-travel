@@ -275,6 +275,7 @@ a {
 
 .contact p {
     margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.64);
 }
 
 .contact .subscribe_form span {
@@ -295,4 +296,20 @@ a {
 
 .contact .email_subscribe:focus {
     border: 0;
+}
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    height: 100px;
+    background-color: #FF6700;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #0057D9;
+    margin-left: 10px;
 }
