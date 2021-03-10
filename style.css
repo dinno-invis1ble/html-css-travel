@@ -250,11 +250,49 @@ a {
     padding: 10px;
 }
 
-
-
 .contact {
-    padding-top: 20px;
+    box-sizing: border-box;
+    padding: 5% 10%;
     width: 80%;
     margin: 5% 10%;
     background-color: rgba(255, 103, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact h1 span {
+    text-transform: lowercase;
+}
+
+.contact p {
+    margin-bottom: 20px;
+}
+
+.contact .subscribe_form span {
+    color: #fff;
+    background-color: #FF6700;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.contact .email_subscribe {
+    border: 0;
+    background-color: #fff;
+    padding: 15px 40px;
+    width: 30vw;
+    margin-right: 10px;
+    border: 1px solid #FF6700;
+}
+
+.contact .email_subscribe:focus {
+    border: 0;
 }
