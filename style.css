@@ -1,6 +1,11 @@
 * {
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Nunito, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .container {
@@ -12,6 +17,7 @@
 
 .head {
     height: 100vh;
+    min-height: 800px;
     background-image: url('./head4.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,11 +51,16 @@
     /* color: #fff; */
 }
 
+.nav ul li:hover {
+    color: #FF6700;
+}
+
 .nav ul li:last-child {
     background-color: #FF6700;
     padding: 13px 23px;
     font-size: 14px;
     color: #fff;
+    cursor: pointer;
 }
 
 .box-head {
@@ -82,6 +93,7 @@
     color: #fff;
     background-color: #FF6700;
     padding: 20px 35px;
+    cursor: pointer;
 }
 
 .color_orange {
@@ -91,7 +103,7 @@
 .head_title {
     width: 40%;
     height: 50%;
-    margin: 4% 0 0 50%;
+    margin: 2% 0 0 50%;
 }
 
 .head_title h1 {
@@ -122,10 +134,127 @@
     font-weight: 700;
 }
 
-.projects {
-    height: 100vh;
+.about {
+    margin: 5% 0 5% 10%;
+    width: 90%;
+    min-height: 25vh;
+    display: flex;
+    padding-top: 20px;
 }
 
+.about .title_about {
+    padding-top: 3%;
+    width: 40%;
+}
+
+.about .title_about h3 {
+    color: #FF6700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.about .title_about h1 {
+    text-transform: capitalize;
+}
+
+.about .about_text {
+    box-sizing: border-box;
+    padding: 4%;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255, 103, 0, .1);
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.about .about_text p {
+    margin-bottom: 50px;
+}
+
+.about .about_text span {
+    color: #fff;
+    background-color: #FF6700;
+    padding: 20px 35px;
+    cursor: pointer;  
+}
+
+.locations {
+    width: 85%;
+    margin: 5% 7%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.card {
+    width: 250px;
+    height: 300px;
+    padding-top: 20px;
+}
+
+.card .card_photo {
+    height: 150px;
+    position: relative;
+}
+
+.card .card_photo .card_price {
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    background-color: #fff;
+    width: 50px;
+    height: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    color: #FF6700;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card .card_photo img {
+    width: 100%;
+    height: 150px;
+}
+
+.card .card_title {
+    margin-top: 30px;
+}
+
+.card .card_location {
+    color: rgba(0, 0, 0, .64);
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+.star_checked {
+    color: #FFDF00;
+}
+
+.star_unchecked {
+    color: #ccc;
+}
+
+.arrow_location {
+    height: 300px;
+    width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.background_rounded {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
 .contact {
-    height: 100vh;
+    padding-top: 20px;
+    width: 80%;
+    margin: 5% 10%;
+    background-color: rgba(255, 103, 0, .1);
 }
