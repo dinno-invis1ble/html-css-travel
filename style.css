@@ -12,6 +12,10 @@
 
 .head {
     height: 100vh;
+    background-image: url('./head4.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .header {
@@ -38,6 +42,7 @@
     display: inline-block;
     margin: 0 2%;
     color: rgba(0, 0, 0, 0.64);
+    /* color: #fff; */
 }
 
 .nav ul li:last-child {
@@ -47,7 +52,75 @@
     color: #fff;
 }
 
+.box-head {
+    width: 60%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.box_head_item p:first-child {
+    color: rgba(0, 0, 0, 0.64);
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box_head_item p:last-child {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    
+}
+
+.box-head .submit_btn {
+    color: #fff;
+    background-color: #FF6700;
+    padding: 20px 35px;
+}
+
+.color_orange {
+    color: #FF6700;
+}
+
+.head_title {
+    width: 40%;
+    height: 50%;
+    margin: 4% 0 0 50%;
+}
+
+.head_title h1 {
+    text-transform: capitalize;
+    font-size: 3.4rem;
+}
+
+.head_title div {
+    margin-top: 4%;
+}
+
+.head_title div span {
+    background-color: #fff;
+    padding: 10px 13px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 10px 8px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 10px 8px rgba(255, 255, 255, 0.4);
+}
+
+.head_title div span i {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.head_title div p {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 700;
+}
 
 .projects {
     height: 100vh;
