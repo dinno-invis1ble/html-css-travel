@@ -1,0 +1,11 @@
+:root {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: '100%';
+    min-height: '100vh';
+    display: 'flex';
+    flex-direction: column;
+}
